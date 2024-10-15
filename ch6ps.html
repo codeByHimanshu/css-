@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout using float</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline;
+        padding: 2vh;
+        font-size: 2vh;
+    }
+
+    ul {
+        background: black;
+        color: white;
+        padding: 6vh;
+    }
+    .container{
+        background:orange
+    }
+    .left{
+float: left;
+background: brown;
+height: 80vh;
+width: 40vh;
+    }
+    .right{
+        float: right;
+        background: yellow;
+        height: 80vh;
+        width: 40vh;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure ex voluptas facere,
+            sequi et sunt, esse placeat atque assumenda porro ea id molestiae odit cupiditate illo animi iusto
+            laudantium ipsa, iste quasi. Mollitia, veritatis.</div>
+        <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magnam velit a doloribus,
+            delectus, eos nisi sapiente unde, laudantium blanditiis nobis hic modi tempora dolorem qui vero sequi
+            nesciunt. Voluptatem, nam molestiae ipsum laudantium ipsa dignissimos eius vel consequatur natus quibusdam
+            itaque, magni praesentium quisquam quasi necessitatibus nostrum reiciendis? Quis delectus totam mollitia
+            cumque iusto aut magnam impedit doloribus non?</div>
+    </div>
+</body>
+
+</html>
